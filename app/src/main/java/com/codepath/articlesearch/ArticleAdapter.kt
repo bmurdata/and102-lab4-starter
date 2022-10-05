@@ -55,6 +55,7 @@ class ArticleAdapter(private val context: Context, private val articles: List<Ar
             // TODO: Get selected article
             val article= articles[absoluteAdapterPosition]
 
+
             // TODO: Navigate to Details screen and pass selected article
             val intent=Intent(context, DetailActivity::class.java)
             intent.putExtra(ARTICLE_EXTRA, article)
